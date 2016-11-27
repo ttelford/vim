@@ -76,9 +76,11 @@ if has("autocmd")
 
 else
 
-  set autoindent		" always set autoindenting on
+set autoindent		" always set autoindenting on
 
 endif " has("autocmd")
 set tabpagemax=30
 set tabstop=4
 set shiftwidth=4
+
+execute pathogen#infect()
