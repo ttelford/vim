@@ -96,6 +96,11 @@ Helptags
 call SyntaxRange#Include('@begin=sh@','@end=sh@','sh','NonText')
 call SyntaxRange#Include('@begin=groovy@','@end=groovy@','groovy','NonText')
 
+" Windows
+if has("win32")
+	set encoding=utf-8
+endif
+
 " TRY to do a diff expr for no whitespace...
 set diffexpr=MyDiff() 
 function MyDiff() 
@@ -110,3 +115,4 @@ function MyDiff()
 	"	echom mystr
 	silent execute "!diff -d -a --binary " . opt . v:fname_in . " " . v:fname_new . " > " . v:fname_out 
 endfunction 
+
