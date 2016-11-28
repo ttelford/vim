@@ -101,16 +101,16 @@ call SyntaxRange#Include('@begin=groovy@','@end=groovy@','groovy','NonText')
 if has("unix")
 	set nospell
 else
+	set encoding=utf-8
 	let g:netrw_cygwin = 0
 	let g:netrw_ssh_cmd  = '"c:\Program Files (x86)\PuTTY\plink.exe" -T -ssh'
 	let g:netrw_scp_cmd  = '"c:\Program Files (x86)\PuTTY\pscp.exe" -scp'
-	"" psftp doesn't work the same way as normal sftp, so this must be hacked
+	" psftp doesn't work the same way as normal sftp, so this must be hacked
 	up
 	"" some...
 	let g:netrw_sftp_cmd = '"c:\Program Files (x86)\PuTTY\pscp.exe" -sftp'
 	" Think this is unix-only
-	" "let g:WMGraphviz_dot="C:\\Program Files
-	" \(x86\)\\Graphviz2\.36\\bin\\dot.exe"
+	" "let g:WMGraphviz_dot="C:\\Program Files \(x86\)\\Graphviz2\.36\\bin\\dot.exe"
 endif
 
 " TRY to do a diff expr for no whitespace...
@@ -127,3 +127,4 @@ function MyDiff()
 	"	echom mystr
 	silent execute "!diff -d -a --binary " . opt . v:fname_in . " " . v:fname_new . " > " . v:fname_out 
 endfunction 
+
