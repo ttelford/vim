@@ -31,3 +31,15 @@
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat
+[submodule "bundle/ingo-library"]
+	path = bundle/ingo-library
+	url = https://github.com/vim-scripts/ingo-library.git
+[submodule "bundle/groovyindent"]
+	path = bundle/groovyindent
+	url = https://github.com/vim-scripts/groovyindent.git
+[submodule "bundle/confluencewiki"]
+	path = bundle/confluencewiki
+	url = https://github.com/vim-scripts/confluencewiki.vim.git
+[submodule "bundle/SyntaxRange"]
+	path = bundle/SyntaxRange
+	url = https://github.com/vim-scripts/SyntaxRange.git
