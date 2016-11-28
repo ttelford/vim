@@ -77,6 +77,7 @@ set smarttab
 set t_Co=256
 set tabpagemax=30
 set tabstop=4
+set background=dark
 "May need these for 256-color too:
 "set t_AB=^[[48;5;%dm
 "set t_AF=^[[38;5;%dm
@@ -95,6 +96,22 @@ execute pathogen#infect()
 Helptags
 call SyntaxRange#Include('@begin=sh@','@end=sh@','sh','NonText')
 call SyntaxRange#Include('@begin=groovy@','@end=groovy@','groovy','NonText')
+
+" Platform-specific
+if has("unix")
+	set nospell
+else
+	let g:netrw_cygwin = 0
+	let g:netrw_ssh_cmd  = '"c:\Program Files (x86)\PuTTY\plink.exe" -T -ssh'
+	let g:netrw_scp_cmd  = '"c:\Program Files (x86)\PuTTY\pscp.exe" -scp'
+	"" psftp doesn't work the same way as normal sftp, so this must be hacked
+	up
+	"" some...
+	let g:netrw_sftp_cmd = '"c:\Program Files (x86)\PuTTY\pscp.exe" -sftp'
+	" Think this is unix-only
+	" "let g:WMGraphviz_dot="C:\\Program Files
+	" \(x86\)\\Graphviz2\.36\\bin\\dot.exe"
+endif
 
 " TRY to do a diff expr for no whitespace...
 set diffexpr=MyDiff() 
