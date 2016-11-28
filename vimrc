@@ -84,8 +84,8 @@ set background=dark
 
 
 " Set !? for the interrobang digraph
-silent! digraph !? 8253 " Interrobang
-silent! digraph -. 8230 " U+2026=… HORIZONTAL ELLIPSIS
+digraph !? 8253 " Interrobang
+digraph -. 8230 " U+2026=… HORIZONTAL ELLIPSIS
 
 " Set global fileencoding to UTF-8
 setglobal fileencoding=utf-8
