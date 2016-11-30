@@ -54,6 +54,7 @@ if version >= 500
 	winsize 84 40
 	set foldcolumn=4
 	setlocal spell spelllang=en_us
+	set bg=light
 endif
 
 set guioptions+=T
