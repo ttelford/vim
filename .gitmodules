@@ -61,3 +61,6 @@
 [submodule "bundle/AnsiEsc"]
 	path = bundle/AnsiEsc
 	url = https://github.com/vim-scripts/AnsiEsc.vim.git
+[submodule "bundle/vim-jdaddy"]
+	path = bundle/vim-jdaddy
+	url = https://github.com/tpope/vim-jdaddy.git
