@@ -94,8 +94,8 @@ set fileencodings=ucs-bom,utf-8,latin1
 " Load the pathogen autoloader
 execute pathogen#infect()
 Helptags
-autocmd BufReadPost * call SyntaxRange#Include('@begin=sh@','@end=sh@','sh','NonText')
-autocmd BufReadPost * call SyntaxRange#Include('@begin=groovy@','@end=groovy@','groovy','NonText')
+autocmd Syntax * call SyntaxRange#Include('@begin=sh@','@end=sh@','sh','NonText')
+autocmd Syntax * call SyntaxRange#Include('@begin=groovy@','@end=groovy@','groovy','NonText')
 
 " Platform-specific
 if has("unix")
