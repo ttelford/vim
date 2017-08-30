@@ -64,3 +64,6 @@
 [submodule "bundle/vim-jdaddy"]
 	path = bundle/vim-jdaddy
 	url = https://github.com/tpope/vim-jdaddy.git
+[submodule "bundle/vim-SyntaxRange"]
+	path = bundle/vim-SyntaxRange
+	url = https://github.com/inkarkat/vim-SyntaxRange.git
