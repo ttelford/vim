@@ -38,7 +38,7 @@
 	path = pack/plugin/start/groovyindent
 	url = https://github.com/vim-scripts/groovyindent.git
 [submodule "bundle/confluencewiki"]
-	path = bundle/confluencewiki
+	path = pack/syntax/start/confluencewiki
 	url = https://github.com/vim-scripts/confluencewiki.vim.git
 [submodule "bundle/vim-fugitive"]
 	path = pack/plugin/start/vim-fugitive
@@ -65,5 +65,5 @@
 	path = pack/plugin/start/vim-SyntaxRange
 	url = https://github.com/inkarkat/vim-SyntaxRange.git
 [submodule "bundle/vim-json"]
-	path = bundle/vim-json
+	path = pack/syntax/start/vim-json
 	url = https://github.com/elzr/vim-json.git
