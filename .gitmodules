@@ -73,3 +73,6 @@
 [submodule "pack/plugin/start/VisIncr"]
 	path = pack/plugin/start/VisIncr
 	url = https://github.com/vim-scripts/VisIncr.git
+[submodule "pack/plugin/start/vim-base64"]
+	path = pack/plugin/start/vim-base64
+	url = https://github.com/christianrondeau/vim-base64.git
