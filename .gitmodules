@@ -82,3 +82,4 @@
 [submodule "pack/plugin/start/coc.nvim"]
 	path = pack/plugin/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
+	shallow = true
