@@ -64,9 +64,6 @@
 [submodule "bundle/vim-SyntaxRange"]
 	path = pack/plugin/start/vim-SyntaxRange
 	url = https://github.com/inkarkat/vim-SyntaxRange.git
-[submodule "bundle/vim-json"]
-	path = pack/syntax/start/vim-json
-	url = https://github.com/elzr/vim-json.git
 [submodule "pack/plugin/start/vim-mustache-handlebars"]
 	path = pack/plugin/start/vim-mustache-handlebars
 	url = https://github.com/mustache/vim-mustache-handlebars.git
@@ -83,3 +80,6 @@
 	path = pack/plugin/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
 	shallow = true
+[submodule "pack/syntax/start/jsonc.vim"]
+	path = pack/syntax/start/jsonc.vim
+	url = https://github.com/neoclide/jsonc.vim
