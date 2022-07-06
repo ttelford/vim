@@ -61,7 +61,7 @@ set guioptions+=T
 
 if has("unix")
 	if system('uname')=~'Darwin'
-		set guifont=Consolas:h16
+		set guifont=CascadiaCodePL-Regular:h16
 	else
 		set guifont=Consolas\ 14
 	endif
