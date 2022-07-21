@@ -141,6 +141,11 @@ nmap ga <Plug>(EasyAlign)
 "python3 del powerline_setup
 set laststatus=2
 
+# Italic support in terminal
+let &t_ZH="\e[3m"
+let &t_ZR="\e[23m"
+highlight Comment cterm=italic
+
 " True color support in (n)vim
 "if (has("nvim"))
 "    "For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
