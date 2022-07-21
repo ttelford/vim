@@ -141,7 +141,7 @@ nmap ga <Plug>(EasyAlign)
 "python3 del powerline_setup
 set laststatus=2
 
-# Italic support in terminal
+" Italic support in terminal
 let &t_ZH="\e[3m"
 let &t_ZR="\e[23m"
 highlight Comment cterm=italic
