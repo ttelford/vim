@@ -164,8 +164,8 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 " coc.nvim additions
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
-#hilight CocFloating ctermfg=5 ctermbg=19
-hilight CocFloating ctermfg=196 ctermbg=19
+#highlight CocFloating ctermfg=5 ctermbg=19
+highlight CocFloating ctermfg=196 ctermbg=19
 
 set encoding=utf-8
 
