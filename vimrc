@@ -165,7 +165,7 @@ command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 "highlight CocFloating ctermfg=5 ctermbg=19
 highlight CocFloating ctermfg=196 ctermbg=19
 
-# Begin of coc.nvim options.
+" Begin of coc.nvim options.
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
