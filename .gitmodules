@@ -52,9 +52,6 @@
 [submodule "bundle/matchit"]
 	path = pack/plugin/start/matchit
 	url = https://github.com/vim-scripts/matchit.zip.git
-[submodule "bundle/vim-autoclose"]
-	path = pack/plugin/start/vim-autoclose
-	url = https://github.com/Townk/vim-autoclose.git
 [submodule "bundle/AnsiEsc"]
 	path = pack/plugin/start/AnsiEsc
 	url = https://github.com/vim-scripts/AnsiEsc.vim.git
