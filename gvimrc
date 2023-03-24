@@ -16,7 +16,7 @@
 " set the X11 font to use
 " set guifont=-misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-1
 
-set lines=40
+set lines=40 columns=86
 
 set spell   " Spell Checking on.
 set ch=2    " Make command line two lines high
