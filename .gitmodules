@@ -82,3 +82,6 @@
 [submodule "pack/plugin/start/editorconfig-vim"]
 	path = pack/plugin/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "pack/plugin/start/groovyindent-unix"]
+	path = pack/plugin/start/groovyindent-unix
+	url = https://github.com/vim-scripts/groovyindent-unix.git
