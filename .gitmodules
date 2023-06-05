@@ -34,9 +34,6 @@
 [submodule "bundle/ingo-library"]
 	path = pack/plugin/start/ingo-library
 	url = https://github.com/vim-scripts/ingo-library.git
-[submodule "bundle/groovyindent"]
-	path = pack/plugin/start/groovyindent
-	url = https://github.com/vim-scripts/groovyindent.git
 [submodule "bundle/confluencewiki"]
 	path = pack/syntax/start/confluencewiki
 	url = https://github.com/vim-scripts/confluencewiki.vim.git
