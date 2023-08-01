@@ -16,7 +16,7 @@
 " set the X11 font to use
 " set guifont=-misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-1
 
-set lines=40 columns=86
+set lines=40 columns=86 " Check for winsize if it's acting weird.
 
 set spell   " Spell Checking on.
 set ch=2    " Make command line two lines high
@@ -51,7 +51,8 @@ if version >= 500
 	"  highlight NonText guibg=grey80
 	"  highlight Constant gui=NONE guibg=grey95
 	"  highlight Special gui=NONE guibg=grey95
-	winsize 84 40
+	" winsize 86 40 " → This overrides the columns setting; using columns and
+	" 					lines is reccomended instead.
 	set foldcolumn=4
 	setlocal spell spelllang=en_us
 	set bg=light
