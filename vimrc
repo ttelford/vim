@@ -87,6 +87,11 @@ set background=dark
 " Set !? for the interrobang digraph
 digraph !? 8253 " Interrobang
 digraph -. 8230 " U+2026=… HORIZONTAL ELLIPSIS
+digraph _, 9166 " U+23CE - RETURN SYMBOL ⏎
+digraph cm 8984 " U+2318 - PLACE OF INTEREST SIGN ⌘
+digraph ct 8963 " U+2303 - UP ARROWHEAD ⌃
+digraph op 8997 " U+2325 - OPTION KEY ⌥
+digraph sH 8679 " U+21E7 - UPWARDS WHITE ARROW ⇧
 
 " Set global fileencoding to UTF-8
 setglobal fileencoding=utf-8
