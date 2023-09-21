@@ -167,6 +167,11 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 
+" Vim-powerline (but not for nvim)
+if (!has("nvim"))
+	packadd! vim-powerline
+endif
+
 "highlight CocFloating ctermfg=5 ctermbg=19
 highlight CocFloating ctermfg=196 ctermbg=19
 
