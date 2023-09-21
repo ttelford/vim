@@ -52,7 +52,7 @@ if version >= 500
 	"  highlight Constant gui=NONE guibg=grey95
 	"  highlight Special gui=NONE guibg=grey95
 	" winsize 86 40 " → This overrides the columns setting; using columns and
-	" 					lines is reccomended instead.
+	"                   lines is reccomended instead.
 	set foldcolumn=4
 	setlocal spell spelllang=en_us
 	set bg=light
@@ -62,7 +62,7 @@ set guioptions+=T
 
 if has("unix")
 	if system('uname')=~'Darwin'
-		set guifont=CascadiaCodePL-Regular:h16
+		set guifont=CaskaydiaCoveNFM-Regular:h16
 	else
 		set guifont=Consolas\ 14
 	endif
