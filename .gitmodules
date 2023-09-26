@@ -82,3 +82,9 @@
 [submodule "pack/plugin/start/groovyindent-unix"]
 	path = pack/plugin/start/groovyindent-unix
 	url = https://github.com/vim-scripts/groovyindent-unix.git
+[submodule "pack/plugin/opt/vim-airline"]
+	path = pack/plugin/opt/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/plugin/opt/vim-airline-themes"]
+	path = pack/plugin/opt/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
