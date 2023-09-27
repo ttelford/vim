@@ -168,7 +168,12 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 
 " Vim-powerline (but not for nvim)
-if (!has("nvim"))
+if (has("nvim"))
+	packadd! vim-airline
+	packadd! vim-airline-themes
+	let g:airline_powerline_fonts = 1
+	let g:airline_theme='powerlineish'
+else
 	packadd! vim-powerline
 endif
 
