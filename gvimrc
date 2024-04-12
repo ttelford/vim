@@ -62,7 +62,11 @@ set guioptions+=T
 
 if has("unix")
 	if system('uname')=~'Darwin'
-		set guifont=CaskaydiaCoveNFM-Regular:h16
+		if exists("g:neovide")
+			set guifont=Cascadia\ Code\ PL,Symbols\ Nerd\ Font\ Mono:h16
+		else
+			set guifont=CaskaydiaCoveNFM-Regular:h16
+		endif
 	else
 		set guifont=Consolas\ 14
 	endif

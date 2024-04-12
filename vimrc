@@ -131,7 +131,11 @@ function MyDiff()
 	endif 
 	" 	let mystr= "!diff -d -a --binary " . opt . v:fname_in . " " . v:fname_new . " > " . v:fname_out 
 	"	echom mystr
-	silent execute "!diff -d -a --binary " . opt . v:fname_in . " " . v:fname_new . " > " . v:fname_out 
+	if has ('macunix')
+		silent execute "!diff -d -a " . opt . v:fname_in . " " . v:fname_new . " > " . v:fname_out 
+	else
+		silent execute "!diff -d -a --binary " . opt . v:fname_in . " " . v:fname_new . " > " . v:fname_out 
+	endif
 endfunction 
 
 " Start interactive EasyAlign in visual mode (e.g. vipga)
