@@ -88,3 +88,6 @@
 [submodule "pack/plugin/opt/vim-airline-themes"]
 	path = pack/plugin/opt/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/themes/start/dracula"]
+	path = pack/themes/start/dracula
+	url = https://github.com/dracula/vim.git

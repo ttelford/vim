@@ -39,7 +39,7 @@ set wildmenu		" tab completion for :commands
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
 if &t_Co > 2 || has("gui_running")
-	syntax on
+	syntax enable
 	set hlsearch
 endif
 
@@ -170,6 +170,9 @@ let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
+
+packadd! dracula
+colorscheme dracula
 
 " Vim-powerline (but not for nvim)
 if (has("nvim"))
