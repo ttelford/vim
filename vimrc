@@ -171,7 +171,7 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 
-packadd! dracula
+packadd! dracula catppucin
 colorscheme dracula
 
 " Vim-powerline (but not for nvim)

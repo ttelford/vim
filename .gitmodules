@@ -91,3 +91,6 @@
 [submodule "pack/themes/start/dracula"]
 	path = pack/themes/start/dracula
 	url = https://github.com/dracula/vim.git
+[submodule "pack/themes/start/catppuccin"]
+	path = pack/themes/start/catppuccin
+	url = https://github.com/catppuccin/vim.git

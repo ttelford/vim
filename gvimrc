@@ -43,7 +43,7 @@ if version >= 500
 	" Set nice colors
 	" background for normal text is light grey
 	" Text below the last line is darker grey
-	" Cursor is green, Cyan when ":lmap" mappings are active
+	" Cursor is green, Cyan when \":lmap" mappings are active
 	" Constants are not underlined but have a slightly lighter background
 	"  highlight Normal guibg=grey90
 	"  highlight Cursor guibg=Green guifg=NONE
@@ -55,7 +55,8 @@ if version >= 500
 	"                   lines is reccomended instead.
 	set foldcolumn=4
 	setlocal spell spelllang=en_us
-	set bg=light
+	"set bg=light
+	colorscheme dracula
 endif
 
 set guioptions+=T
