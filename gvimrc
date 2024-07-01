@@ -64,7 +64,7 @@ set guioptions+=T
 if has("unix")
 	if system('uname')=~'Darwin'
 		if exists("g:neovide")
-			set guifont=Cascadia\ Code\ PL,Symbols\ Nerd\ Font\ Mono:h16
+			set guifont=CaskaydiaCove\ Nerd\ Font\ Mono:h16
 		else
 			set guifont=CaskaydiaCoveNFM-Regular:h16
 		endif
