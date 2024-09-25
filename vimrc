@@ -184,6 +184,17 @@ else
 	packadd! vim-powerline
 endif
 
+" use dash plugin for macOS
+if has('macunix') || has('mac') || has('osx')
+	packadd! dash.vim
+endif
+
+
+" FZF - 
+" TODO: Need to have it use the _right_ path depending on if I'm on a machine
+" using homebrew or apt-get or MacPorts
+set rtp+=/opt/local/share/fzf/vim
+
 "highlight CocFloating ctermfg=5 ctermbg=19
 highlight CocFloating ctermfg=196 ctermbg=19
 

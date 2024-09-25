@@ -94,3 +94,9 @@
 [submodule "pack/themes/start/catppuccin"]
 	path = pack/themes/start/catppuccin
 	url = https://github.com/catppuccin/vim.git
+[submodule "pack/plugin/start/fzf.vim"]
+	path = pack/plugin/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/plugin/opt/dash.vim"]
+	path = pack/plugin/opt/dash.vim
+	url = https://github.com/rizzatti/dash.vim.git
