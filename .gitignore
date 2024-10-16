@@ -1,1 +1,4 @@
-pack/plugin/start/vim-powerline
+pack/plugin/opt/vim-powerline
+doc/tags
+.netrwhist
+sessions/*

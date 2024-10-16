@@ -99,7 +99,7 @@ set fileencodings=ucs-bom,utf-8,latin1
 
 " Load the pathogen autoloader
 execute pathogen#infect()
-Helptags
+"helptags ALL
 autocmd Syntax * call SyntaxRange#Include('@begin=sh@','@end=sh@','sh','NonText')
 autocmd Syntax * call SyntaxRange#Include('@begin=groovy@','@end=groovy@','groovy','NonText')
 
