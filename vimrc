@@ -289,6 +289,29 @@ let g:fzf_vim.buffers_jump = 1
 if ! exists ('g:vscode')
 	packadd! coc.nvim
 
+	let g:coc_global_extensions = [
+		\'coc-cfn-lint',
+		\'coc-clangd',
+		\'coc-docker',
+		\'coc-go',
+		\'coc-groovy',
+		\'coc-html',
+		\'coc-java',
+		\'coc-json',
+		\'coc-lists',
+		\'coc-lua',
+		\'coc-markdownlint',
+		\'coc-marketplace',
+		\'coc-prettier',
+		\'coc-pyright',
+		\'coc-rls',
+		\'coc-sh',
+		\'coc-vimlsp',
+		\'coc-xml',
+		\'coc-yaml',
+		\'coc-yank',
+		\]
+
 	"highlight CocFloating ctermfg=5 ctermbg=19
 	highlight CocFloating ctermfg=196 ctermbg=19
 
