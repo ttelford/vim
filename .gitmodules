@@ -103,3 +103,6 @@
 [submodule "pack/plugin/start/vim-ingo-library"]
 	path = pack/plugin/start/vim-ingo-library
 	url = https://github.com/inkarkat/vim-ingo-library.git
+[submodule "pack/plugin/start/vim-rainbow"]
+	path = pack/plugin/start/vim-rainbow
+	url = https://github.com/luochen1990/rainbow.git
