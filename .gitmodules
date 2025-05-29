@@ -106,3 +106,12 @@
 [submodule "pack/plugin/start/vim-rainbow"]
 	path = pack/plugin/start/vim-rainbow
 	url = https://github.com/luochen1990/rainbow.git
+[submodule "pack/plugin/start/vim-smoothie"]
+	path = pack/plugin/start/vim-smoothie
+	url = https://github.com/psliwka/vim-smoothie.git
+[submodule "pack/plugin/start/vim-devicons"]
+	path = pack/plugin/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "pack/plugin/start/vim-MvVis"]
+	path = pack/plugin/start/vim-MvVis
+	url = https://github.com/Jorenar/vim-MvVis.git

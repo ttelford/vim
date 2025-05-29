@@ -284,6 +284,9 @@ let g:fzf_vim.preview_window = ['right,50%', 'ctrl-/']
 " [Buffers] Jump to the existing window if possible (default: 0)
 let g:fzf_vim.buffers_jump = 1
 
+" Add vim-rainbow
+let g:rainbow_active = 1
+
 " VScodium seems to differ with coc.nvim
 " No sense in having both.
 if ! exists ('g:vscode')
